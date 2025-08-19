@@ -5,16 +5,16 @@ export const Index: React.FC = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="h-dvh flex place-items-center place-content-center">
+    <div className="flex h-dvh place-content-center place-items-center">
       <button
-        className="border w-8"
+        className="w-8 border"
         onClick={() => setCount((count) => count - 1)}
       >
         -1
       </button>
-      <span className="w-8 grid place-items-center">{count}</span>
+      <span className="grid w-8 place-items-center">{count}</span>
       <button
-        className="border w-8"
+        className="w-8 border"
         onClick={() => setCount((count) => count + 1)}
       >
         +1
