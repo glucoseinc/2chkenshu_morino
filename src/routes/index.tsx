@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import type React from "react";
 import { useState } from "react";
 
@@ -19,6 +20,7 @@ export const Index: React.FC = () => {
       >
         +1
       </button>
+      <Button>aba</Button>
     </div>
   );
 };
